@@ -1,0 +1,56 @@
+:root {
+    --main-color: #A71BA7;
+  }
+
+body {
+    margin: 0;
+}
+
+.container {
+    max-width: 1280px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+nav {
+    display: grid;
+    grid-area: 1fr 1fr;
+}
+
+nav ul {
+    list-style: none;
+    grid-column-start: 2;
+    display: flex;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.about-me {
+    display: grid;
+}
+
+.about-me h1 {
+    color: var(--main-color)
+}
+
+.about-me img {
+    grid-column: 2 / span 1;
+}
+
+.project {
+    display: grid;
+}
+
+.project h5 {
+    grid-column: 1 / span 2;
+}
+
+.project .text {
+    grid-column: 2 / span 1;
+}
