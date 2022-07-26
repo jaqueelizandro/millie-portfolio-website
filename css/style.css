@@ -87,9 +87,9 @@ main {
 }
 
 .container-projects {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .project {
@@ -101,7 +101,9 @@ main {
     background-color: var(--second-color);
     border-radius: 45px;
     height: 454px;
+    width: 500px;
     padding: 2rem;
+    margin-bottom: 5rem;
     box-shadow: 1px 5px 5px rgba(192,192,192,1);
 }
 
