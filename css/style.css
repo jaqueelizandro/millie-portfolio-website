@@ -83,12 +83,12 @@ nav a {
 .contact p {
     color: var(--main-color);
     text-align: center;
-    margin: auto;
 }
 
 .contact img {
     display: block;
     margin: auto;
+    padding: 3rem 0;
 }
 
 footer {
@@ -98,6 +98,33 @@ footer {
     background-color: var(--second-color);
 }
 
-footer .container-icons {
+.container-icons {
     text-align: center;
+    padding: 3rem 0;
+}
+
+.container-icons span {
+    padding: 0 1rem;
+    position: relative;
+}
+
+.container-icons span:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    color: var(--main-color);
+    transition: opacity 0.5s ease-in-out;
+    position: absolute;
+    z-index: 1;
+    transform: translate(50%, -100%);
+}
+
+.container-icons span:hover:before {
+    opacity: 1;
+    visibility: visible;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px 0;
 }
