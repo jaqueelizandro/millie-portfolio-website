@@ -4,10 +4,10 @@
   }
 
 body {
-    margin: 0;
+    margin: 0 auto;
 }
 
-.container {
+main {
     max-width: 1280px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -78,4 +78,26 @@ nav a {
 
 .project .text {
     grid-column: 2 / span 1;
+}
+
+.contact p {
+    color: var(--main-color);
+    text-align: center;
+    margin: auto;
+}
+
+.contact img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    color: var(--main-color);
+    text-align: center;
+    margin: auto;
+    background-color: var(--second-color);
+}
+
+footer .container-icons {
+    text-align: center;
 }
