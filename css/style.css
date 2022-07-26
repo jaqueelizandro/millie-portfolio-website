@@ -1,5 +1,6 @@
 :root {
-    --main-color: #A71BA7;
+    --main-color: rgba(167, 27, 167, 1);
+    --second-color: rgba(235, 227, 214, 0.3);
   }
 
 body {
@@ -31,24 +32,48 @@ nav a {
     padding: 0 10px;
 }
 
-.about-me {
+.home {
     display: grid;
 }
 
-.about-me h1 {
+.home h1 {
     color: var(--main-color)
 }
 
-.about-me img {
+.home .text {
+    place-self: center;
+    text-align: center;
+}
+
+.home img {
     grid-column: 2 / span 1;
+}
+
+.projects h1 {
+    color: var(--main-color);
+}
+
+.container-projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
 }
 
 .project {
     display: grid;
+    grid-template-rows: max-content auto max-content;
+    place-items: center;
+    column-gap: 1rem;
+    background-color: var(--second-color);
+    border-radius: 45px;
+    height: 454px;
+    padding: 2rem;
 }
 
 .project h5 {
     grid-column: 1 / span 2;
+    color: var(--main-color);
+    text-align: center;
 }
 
 .project .text {
