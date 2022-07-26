@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    border-bottom: 1px solid var(--main-color);
+    border-bottom: 1px solid rgba(167,27,167,0.3);
     box-shadow: 1px 5px 5px rgba(192,192,192,1);
 }
 
@@ -75,6 +75,7 @@ main {
 
 .projects h1 {
     color: var(--main-color);
+    font-size: 3rem;
 }
 
 .container-projects {
@@ -86,27 +87,35 @@ main {
 .project {
     display: grid;
     grid-template-rows: max-content auto max-content;
+    grid-template-columns: 40% 60%;
     place-items: center;
     column-gap: 1rem;
     background-color: var(--second-color);
     border-radius: 45px;
     height: 454px;
     padding: 2rem;
+    box-shadow: 1px 5px 5px rgba(192,192,192,1);
 }
 
-.project h5 {
+.project h3 {
     grid-column: 1 / span 2;
     color: var(--main-color);
     text-align: center;
 }
 
-.project .text {
-    grid-column: 2 / span 1;
+.project img {
+    justify-self: start;
 }
 
-.contact p {
+.project .text {
+    grid-column: 2 / span 1;
+    justify-self: start;
+}
+
+.contact .text {
     color: var(--main-color);
     text-align: center;
+    padding: 5rem 0;
 }
 
 .contact img {
