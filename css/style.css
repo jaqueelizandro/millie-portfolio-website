@@ -93,6 +93,10 @@ main {
     justify-content: space-between;
 }
 
+.container-projects a {
+    text-decoration: none;
+}
+
 .project {
     display: grid;
     grid-template-rows: max-content auto max-content;
@@ -121,6 +125,7 @@ main {
 .project .text {
     grid-column: 2 / span 1;
     justify-self: start;
+    color: black;
 }
 
 .contact .text {
