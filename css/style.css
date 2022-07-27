@@ -5,6 +5,7 @@
 
 body {
     margin: 0 auto;
+    font-family: Verdana,Tahoma,sans-serif;
 }
 
 header {
@@ -147,25 +148,12 @@ footer {
     align-items: end;
 }
 
-.container-icons span {
-    padding: 0 1rem;
-    position: relative;
+.container-icons {
+    display: flex;
 }
 
-.container-icons span:before {
-    content: attr(data-hover);
-    visibility: hidden;
-    opacity: 0;
-    color: var(--main-color);
-    transition: opacity 0.5s ease-in-out;
-    position: absolute;
-    z-index: 1;
-    transform: translate(50%, -100%);
-}
-
-.container-icons span:hover:before {
-    opacity: 1;
-    visibility: visible;
+.container-icons img {
+    padding: 0 10px;
 }
 
 footer p {
