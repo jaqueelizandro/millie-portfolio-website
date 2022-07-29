@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 :root {
     --main-color: rgba(167,27,167,1);
     --second-color: rgba(235,227, 214,0.3);
   }
 
-body {
+* {
     margin: 0 auto;
-    font-family: Verdana,Tahoma,sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header {
@@ -20,7 +22,6 @@ header {
 nav {
     max-width: 1280px;
     display: grid;
-    margin: 0 auto;
 }
 
 nav ul {
@@ -44,10 +45,10 @@ nav a img {
 }
 
 main {
-    max-width: 1280px;
+    /* max-width: 1280px; */
     box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0 1rem;
+    padding-top: 10rem;
+    /* padding: 10rem 1rem 0 1rem; */
 }
 
 .home {
@@ -136,14 +137,12 @@ main {
 
 .contact img {
     display: block;
-    margin: auto;
     padding: 3rem 0;
 }
 
 footer {
     color: var(--main-color);
     text-align: center;
-    margin: auto;
     background-color: var(--second-color);
     clip-path: ellipse(50% 100% at bottom);
     height: 300px;
