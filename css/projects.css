@@ -108,8 +108,8 @@
 }
 
 .large-flex-boxes .content {
-    width: 50%;
-    min-width: 500px;
+    width: 100%;
+    /* min-width: 500px; */
     min-height: 400px;
     padding: 2em 4em;
     background-color: var(--second-color);
@@ -413,6 +413,10 @@ button {
 
     .triangle .content {
         font-size: 1.5rem;
+    }
+
+    .large-flex-boxes .content {
+        width: 50%;
     }
 }
 
