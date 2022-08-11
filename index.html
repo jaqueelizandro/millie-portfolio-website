@@ -8,83 +8,89 @@
 </head>
 <body>
     <header>
-        <nav>
-            <a href="home">
+        <div class="logo">
+            <a href="#home">
                 <img src="images/logo.svg" alt="millie-logo" />
             </a>
+        </div>
+        <nav>
             <ul>
                 <li>
-                    <a href="#home">Home</a>
+                    <a href="#home" class="active">Home</a>
                 </li>
                 <li>
                     <a href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="#about">About</a>
+                    <a href="about.html">About</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
         <section class="home" id="home">
-            <div class="text">
-                <h1>Hi, I’m Millie.</h1>
-                <p>A Research driven UX Designer, passionate about Human-centered design.</p>
-                <p>My goal is to improve people’s lives through design, by working on projects
-                    that have a positive impact and creative solutions.</p>
+            <div>
+                <div class="purple" id="millie">Hi, I’m Millie.</div>
+                <div>A Research driven UX Designer, passionate about Human-centered design.</div>
+                <div>My goal is to improve people’s lives through design, by working on projects
+                    that have a positive impact and creative solutions.</div>
             </div>
-            <img src="images/profile-image-millie.svg" />
+            <div>
+                <img src="images/profile-image-millie.svg" />
+            </div>
         </section>
         <section class="projects" id="projects">
             <h1>Projects</h1>
             <div class="container-projects">
-                <a href="project-red-cross-lifeblood.html">
-                    <div class="project">
-                        <h3>Australia Red Cross Lifeblood</h3>
-                        <img src="images/autralia-red-cross-lifeblood-project.svg" />
+                <div class="project">
+                    <a href="project-red-cross-lifeblood.html">
+                        <div class="content">
+                            <h5>Australia Red Cross Lifeblood</h5>
+                            <img src="images/autralia-red-cross-lifeblood-project.svg" />
+                            <div class="text">
+                                <p>A digital solution to encourage current donors to continue donating.</p>
+                                <p>2022</p>
+                                <p>UX - UI - Mobile</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="parametric-insurance.html">
+                        <div class="content">
+                            <h5>Parametric Insurance</h5>
+                            <img src="images/parametric-insurance-project.svg" />
+                            <div class="text">
+                                <p>Designing a new Insurance Policy for Firemark/ IAG.</p>
+                                <p>2022</p>
+                                <p>UX - UI - Branding</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <div class="content">
+                        <h5>My portfolio</h5>
+                        <img src="images/my-portfolio-project.svg" />
                         <div class="text">
-                            <p>A digital solution to encourage current donors to continue donating.</p>
+                            <p>Building my UX Designer portofolio from scratch. Why I decided to not use a website builder.</p>
                             <p>2022</p>
-                            <p>UX - UI - Mobile</p>
+                            <p>UX - UI - HTML - CSS</p>
                         </div>
                     </div>
-                </a>
-                <div class="project">
-                    <h3>Parametric Insurance</h3>
-                    <img src="images/parametric-insurance-project.svg" />
-                    <div class="text">
-                        <p>Designing a new Insurance Policy for Firemark/ IAG.</p>
-                        <p>2022</p>
-                        <p>UX - UI - Branding</p>
-                    </div>
-                </div>
-                <div class="project">
-                    <h3>My portfolio</h3>
-                    <img src="images/my-portfolio-project.svg" />
-                    <div class="text">
-                        <p>Building my UX Designer portofolio from scratch. Why I decided to not use a website builder.</p>
-                        <p>2022</p>
-                        <p>UX - UI - HTML - CSS</p>
-                    </div>
-                </div>
-                <div class="project">
-                    <h3>Sunflower Land</h3>
-                    <img src="images/sunflower-land-project.svg" />
-                    <div class="text">
-                        <p>Research project.</p>
-                        <p>2022</p>
-                        <p>UX - website</p>
-                    </div>
-                    <h3>work in progress...</h3>
                 </div>
             </div>
         </section>
         <section class="contact">
-            <div class="text">
-                <h2>Let’s have a coffee together!</h2>
-                <h2>I would love to tell you more about me...</h2>
+            <div class="small-highlight-text">
+                <div>
+                    <div>Let’s have a coffee together!</div>
+                    <div>I would love to tell you more about me...</div>
+                </div>
             </div>
-            <img src="images/coffee-together.svg" />
+            <div class="images">
+                <img src="images/coffee-heart.svg" />
+            </div>
         </section>
     </main>
     <footer>

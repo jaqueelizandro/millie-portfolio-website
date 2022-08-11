@@ -1,0 +1,68 @@
+section {
+    padding-top: 13em;
+}
+
+.header {
+    color: var(--main-color);
+    font-size: 1.88rem;
+    text-align: center;
+}
+
+.header > div {
+    padding-bottom: 2em;
+}
+
+.text {
+    width: 80%;
+    padding: 5em 0;
+}
+
+.quote {
+    width: 90%;
+    padding: 5em 0;
+}
+
+.text p,
+.quote p {
+    padding-bottom: 2em;
+}
+
+.box {
+    width: 70%;
+    border-radius: 30px;
+    background-color: var(--second-color);
+    padding: 1em;
+    text-align: center;
+}
+
+.box > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+
+.box .images {
+    margin: 0;
+}
+
+@media (min-width: 800px) {
+    .text {
+        width: 60%;
+    }
+
+    .quote {
+        width: 70%;
+    }
+
+    .box {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .box {
+        width: 35%;
+    }
+}
