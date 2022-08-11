@@ -177,15 +177,13 @@
 }
 
 #figma-button {
-    text-align: right;
+    max-width: 100%;
 }
 
-button {
-    font-family: 'Open Sans', sans-serif;
+.button a {
+    text-decoration: none;
     font-size: 1.25rem;
-    height: 45px;
-    width: 275px;
-    padding: 0;
+    padding: .30em .70em;
     border: 0;
     color: var(--main-color);
     background-color: rgba(234,215,230,0.3);
