@@ -28,7 +28,7 @@ section {
 }
 
 .box {
-    width: 70%;
+    width: 80%;
     border-radius: 30px;
     background-color: var(--second-color);
     padding: 1em;
@@ -40,11 +40,19 @@ section {
     justify-content: flex-start;
     align-items: center;
     color: var(--main-color);
-    font-size: 1.5rem;
+    font-size: 1rem;
+}
+
+.box > div > p {
+    font-size: 1rem;
 }
 
 .box .images {
     margin: 0;
+}
+
+.box .images img {
+    height: 4em;
 }
 
 @media (min-width: 800px) {
@@ -58,6 +66,14 @@ section {
 
     .box {
         width: 50%;
+    }
+
+    .box > div > p {
+        font-size: 1.5rem;
+    }
+
+    .box .images img {
+        height: unset;
     }
 }
 
