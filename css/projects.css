@@ -109,7 +109,6 @@
 
 .large-flex-boxes .content {
     width: 100%;
-    /* min-width: 500px; */
     min-height: 400px;
     padding: 2em 4em;
     background-color: var(--second-color);
@@ -123,6 +122,10 @@
 .text {
     max-width: 80%;
     padding-bottom: 2em;
+}
+
+.bold {
+    font-weight: 900;
 }
 
 .grid-box {
