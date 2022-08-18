@@ -19,5 +19,5 @@ The project was conduct based on:
 
 ## Images
 ![gif](./images/gif.gif)
-<img src="./images/readme.png" />
+<img src="./images/readme.png" width="500" />
 
