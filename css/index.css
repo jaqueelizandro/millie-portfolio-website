@@ -141,7 +141,7 @@ nav .active::before {
     transform: scale(1, 1);
 }
 
-.home {
+main .home {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -149,7 +149,7 @@ nav .active::before {
     max-width: 90%;
 }
 
-.home > div {
+main .home > div {
     margin: 0;
     place-self: center;
     text-align: center;
@@ -157,7 +157,7 @@ nav .active::before {
     min-width: 350px;
 }
 
-.home > div > div {
+main .home > div > div {
     padding-bottom: 1em;
 }
 
@@ -165,7 +165,7 @@ nav .active::before {
     font-size: 3rem;
 }
 
-.home img {
+main .home img {
     max-width: 100%;
 }
 
@@ -280,11 +280,11 @@ footer p {
 }
 
 @media (min-width: 800px) {
-    .home {
+    main .home {
         justify-content: space-between;
     }
 
-    .home > div {
+    main .home > div {
         width: 50%;
     }
 
