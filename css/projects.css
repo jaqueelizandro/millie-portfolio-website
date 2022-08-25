@@ -373,6 +373,7 @@
 
 .question h4 {
     text-align: center;
+    padding-top: 2em;
 }
 
 .overlapping-grid {
@@ -388,6 +389,17 @@
 #firemark {
     background-color: rgba(234,215,230,.7);
 }
+
+.umbrella {
+    list-style: none;
+    padding: 1em 0 0 0;
+}
+
+.umbrella > li {
+    background: url('../images/parametric-insurance/umbrella.svg') no-repeat left center;;
+    padding-left: 2.5em;
+    line-height: 300%;
+}   
 
 @media (min-width: 800px) {
     #subtitle1 {
