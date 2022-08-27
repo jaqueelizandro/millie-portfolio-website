@@ -8,6 +8,9 @@ window.onscroll = () => {
       current = section.getAttribute("id");
     }
   });
+
+  console.log(window.pageYOffset)
+  
   navLink.forEach((link) => {
     link.classList.remove("active");
     if (current === null) {
