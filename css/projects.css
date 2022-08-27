@@ -432,6 +432,11 @@
     text-align: center;
 } */
 
+.redicova-link {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
 @media (min-width: 800px) {
     #subtitle1 {
         width: 50%;
