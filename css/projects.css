@@ -472,7 +472,7 @@
 
 .redicova-link {
     color: var(--main-color);
-    text-decoration: none;
+    font-style: italic;
 }
 
 @media (min-width: 800px) {
