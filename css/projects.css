@@ -392,13 +392,12 @@
 
 .umbrella {
     list-style: none;
-    padding: 1em 0 0 0;
+    padding: 2em 0 0 0;
 }
 
 .umbrella > li {
-    background: url('../images/parametric-insurance/umbrella.svg') no-repeat left center;;
-    padding-left: 2.5em;
-    line-height: 300%;
+    background: url('../images/parametric-insurance/umbrella.svg') no-repeat left top;
+    padding: 0 0 1.5em 2.5em;
 }
 
 .survey-box > h4 {
@@ -407,7 +406,7 @@
 
 .carousel {
     position: relative;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .carousel > button {
@@ -427,11 +426,12 @@
 
 .carousel .button-left {
     transform: rotate(180deg) translateY(50%);
+    left: -3em;
 }
 
 .carousel .button-right {
     transform: translateY(-50%);
-    right: 0;
+    right: -3em;
 }
 
 .carousel .button-inactive {
@@ -538,6 +538,10 @@
 
     .overlapping-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .carousel {
+        max-width: 80%;
     }
 }
 
