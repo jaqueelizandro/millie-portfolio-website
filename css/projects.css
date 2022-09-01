@@ -69,7 +69,7 @@
 }
 
 .large-box {
-    max-width: 100%;
+    width: 100%;
 }
 
 .large-box .container {
@@ -490,6 +490,10 @@
 
     .box {
         width: 75%;
+    }
+
+    .large-box {
+        width: 100%;
     }
 
     .survey-box {
