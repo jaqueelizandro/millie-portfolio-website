@@ -504,8 +504,12 @@
 
 .infograph__card__container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     padding: 1em 0;
+    width: 100%;
+}
+
+.infograph__card__container .first-card {
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .infograph__card__container > img {
@@ -520,6 +524,7 @@
     background-color: rgba(196,196,196,.3);
     border-radius: 20px;
     margin: auto;
+    max-width: 7em;
 }
 
 .infograph__text {
