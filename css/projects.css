@@ -600,6 +600,10 @@
     .carousel {
         max-width: 80%;
     }
+
+    .infograph__wrapper {
+        width: 85%;
+    }
 }
 
 @media (min-width: 1200px) {
