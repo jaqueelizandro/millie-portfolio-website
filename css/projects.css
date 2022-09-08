@@ -607,6 +607,25 @@
     max-width: 90%;
 }
 
+.persona__box-description {
+    max-width: 80%;
+    border: 1px dashed var(--main-color);
+    padding: 1em;
+    margin-bottom: 5em;
+}
+
+.persona__box-description__wrapp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2%;
+}
+
+.persona__box-description__wrapp > div {
+    width: 49%;
+}
+
 @media (min-width: 800px) {
     #subtitle1 {
         width: 50%;
