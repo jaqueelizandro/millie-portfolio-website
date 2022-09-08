@@ -596,6 +596,17 @@
     border-top: 1px solid rgba(0,0,0,1);
 }
 
+.container-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    padding-bottom: 5em;
+}
+
+.container-images > img {
+    max-width: 90%;
+}
+
 @media (min-width: 800px) {
     #subtitle1 {
         width: 50%;
@@ -676,6 +687,14 @@
     .trad-x-param {
         max-width: 75%;
     }
+
+    .container-images {
+        width: 80%;
+    }
+
+    .container-images > img {
+        max-width: 40%;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -693,5 +712,9 @@
 
     .trad-x-param {
         max-width: 55%;
+    }
+
+    .container-images > img {
+        max-width: 25%;
     }
 }
