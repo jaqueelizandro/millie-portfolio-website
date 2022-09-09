@@ -604,23 +604,51 @@
     max-width: 90%;
 }
 
-.persona__box-description {
-    max-width: 80%;
+.persona__box {
+    max-width: 90%;
     border: 1px dashed var(--main-color);
     padding: 1em;
     margin-bottom: 5em;
 }
 
-.persona__box-description__wrapp {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2%;
+.persona__box > h1 {
+    text-align: left;
+    align-self: end;
+    margin: 0;
 }
 
-.persona__box-description__wrapp > div {
-    width: 49%;
+.persona__box .images {
+    grid-column: 2 / span 2;
+    justify-self: start;
+}
+
+.persona__box > div {
+    margin: 0;
+    padding-bottom: 2em;
+}
+
+.persona__box > div > ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.persona__box > div > h4 {
+    padding-left: 12px;
+    padding-bottom: 0;
+}
+
+.persona__box__description {
+    grid-row: 2 / span 2;
+    grid-column: 1 / span 2;
+    padding-right: 1em;
+}
+
+.persona__box__bio {
+    grid-column: 1 / span 2;
+}
+
+.persona__box__description > p:first-child {
+    padding-bottom: 2em;
 }
 
 @media (min-width: 800px) {
@@ -710,6 +738,12 @@
 
     .container-images > img {
         max-width: 40%;
+    }
+
+    .persona__box {
+        max-width: 80%;
+        display: grid;
+        grid-template-columns: 25% 15% 60%;
     }
 }
 
