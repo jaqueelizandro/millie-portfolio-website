@@ -24,6 +24,7 @@
     width: 80%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .header img {
@@ -648,6 +649,12 @@
 }
 
 .persona__box__description > p:first-child {
+    padding-bottom: 2em;
+}
+
+#so {
+    font-size: 1.875rem;
+    text-align: center;
     padding-bottom: 2em;
 }
 
