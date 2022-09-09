@@ -658,6 +658,17 @@
     padding-bottom: 2em;
 }
 
+.ideation__images {
+    display: grid;
+    align-items: center;
+    max-width: 90%;
+    padding-bottom: 5em;
+}
+
+.ideation__images > img {
+    padding-bottom: 1em;
+}
+
 @media (min-width: 800px) {
     #subtitle1 {
         width: 50%;
@@ -773,5 +784,15 @@
 
     .container-images > img {
         max-width: 25%;
+    }
+
+    .ideation__images {
+        grid-template-columns: 1fr 1fr;
+        max-width: 80%;
+    }
+
+    .ideation__images__colors {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 2;
     }
 }
