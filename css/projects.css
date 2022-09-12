@@ -460,11 +460,6 @@
     right: -3em;
 }
 
-.carousel .button-inactive {
-    opacity: .3;
-    cursor: auto;
-}
-
 .slide {
     display: none;
 }
