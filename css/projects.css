@@ -69,6 +69,36 @@
     align-items: center;
 }
 
+.ideation__box__content {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50%, 1fr));
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.ideation__box__content-large-text {
+    display: grid;
+    grid-template-columns: 65% 35%;
+    align-items: center;
+    margin-bottom: 5em;
+}
+
+.ideation__box__highlight-text {
+    text-align: center;
+    font-size: 1.87rem;
+    color: var(--main-color);
+    padding-bottom: 2em;
+}
+
+.ideation__box__images {
+    display: flex;
+}
+
+.ideation__box__image {
+    display: grid;
+    row-gap: 1em;
+}
+
 .large-box {
     width: 100%;
 }
