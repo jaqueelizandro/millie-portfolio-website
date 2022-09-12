@@ -2,7 +2,15 @@ const nextButton = document.querySelector(".button-right");
 const prevButton = document.querySelector(".button-left");
 
 let slideIndex = 1;
-showSlides(slideIndex);
+// showSlides(slideIndex);
+
+prevButton.addEventListener('click', e => {
+    plusSlides(-1)
+})
+
+nextButton.addEventListener('click', e => {
+    plusSlides(1)
+})
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -17,15 +25,7 @@ function showSlides(n) {
         slideIndex = slides.length;
     }
     for (let i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
+        slides[i].classList.remove("current-slide")
     }
-    slides[slideIndex-1].style.display = "block";  
+    slides[slideIndex-1].classList.add('current-slide')
 }
-
-prevButton.addEventListener('click', e => {
-    plusSlides(-1)
-})
-
-nextButton.addEventListener('click', e => {
-    plusSlides(1)
-})
