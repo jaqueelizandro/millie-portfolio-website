@@ -701,6 +701,17 @@
     padding-bottom: 1em;
 }
 
+.solution__images {
+    text-align: center;
+}
+
+.solution__images > img {
+    padding: 1em;
+    max-width: 100%;
+    margin: 0;
+    vertical-align: middle;
+}
+
 @media (min-width: 800px) {
     #subtitle1 {
         width: 50%;
