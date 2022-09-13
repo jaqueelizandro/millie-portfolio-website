@@ -713,6 +713,23 @@
     vertical-align: middle;
 }
 
+.results__list {
+    max-width: 45%;
+    border: 1px dotted var(--main-color);
+    margin-bottom: 2em;
+}
+
+.results__list > ul {
+    padding: 0; 
+}
+
+.results__list > ul > li {
+    margin: 1.8em;
+    list-style: none;
+    padding-left: 2em; 
+    background: url(../images/parametric-insurance/check-icon.svg) left top no-repeat;
+}
+
 @media (min-width: 800px) {
     #subtitle1 {
         width: 50%;
