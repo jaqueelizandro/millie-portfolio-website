@@ -450,12 +450,14 @@
     cursor: pointer;
 }
 
-.carousel .button-left {
+.carousel .button-left,
+.carousel .ideation__button-left {
     transform: rotate(180deg) translateY(50%);
     left: -3em;
 }
 
-.carousel .button-right {
+.carousel .button-right,
+.carousel .ideation__button-right {
     transform: translateY(-50%);
     right: -3em;
 }
@@ -465,7 +467,8 @@
     cursor: auto;
 }
 
-.slide {
+.slide,
+.ideation__slide {
     display: none;
 }
 
