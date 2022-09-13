@@ -467,6 +467,10 @@
     cursor: auto;
 }
 
+.ideation__slide {
+    padding: 5em;
+}
+
 .slide,
 .ideation__slide {
     display: none;
