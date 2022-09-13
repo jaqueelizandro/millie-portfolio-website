@@ -730,6 +730,14 @@
     background: url(../images/parametric-insurance/check-icon.svg) left top no-repeat;
 }
 
+#bubble-chat2 {
+    align-self: end;
+}
+
+#bubble-chat3 {
+    align-self: start;
+}
+
 @media (min-width: 800px) {
     #subtitle1 {
         width: 50%;
