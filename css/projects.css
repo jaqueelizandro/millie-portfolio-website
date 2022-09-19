@@ -719,7 +719,7 @@
 }
 
 .results__list {
-    max-width: 45%;
+    max-width: 90%;
     border: 1px dotted var(--main-color);
     margin-bottom: 2em;
 }
@@ -903,6 +903,10 @@
     
     .ideation__box__content-large-text {
         grid-template-columns: 65% 35%;
+    }
+
+    .results__list {
+        max-width: 45%;
     }
 
     .roadmap__board {
