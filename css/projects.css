@@ -457,13 +457,13 @@
 .carousel .button-left,
 .carousel .ideation__button-left {
     transform: rotate(180deg) translateY(50%);
-    left: -3em;
+    left: 1em;
 }
 
 .carousel .button-right,
 .carousel .ideation__button-right {
     transform: translateY(-50%);
-    right: -3em;
+    right: 1em;
 }
 
 .carousel .button-inactive {
