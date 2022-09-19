@@ -411,9 +411,12 @@
     max-width: 80%;
 }
 
+.overlapping-grid .images {
+    max-height: 8em;
+}
+
 .overlapping-grid .box {
     width: 104%;
-    min-height: 19em;
 }
 
 #firemark {
@@ -871,6 +874,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .overlapping-grid .box {
+        min-height: 29em;
+    }
+
     .carousel {
         max-width: 80%;
     }
@@ -959,6 +966,10 @@
     .ideation__images__colors {
         grid-column: 2 / span 1;
         grid-row: 1 / span 2;
+    }
+
+    .overlapping-grid .box {
+        min-height: 19em;
     }
 
     .roadmap__board {
