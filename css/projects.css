@@ -699,6 +699,7 @@
 
 .ideation__images > img {
     padding-bottom: 1em;
+    max-width: 100%;
 }
 
 .solution__images {
