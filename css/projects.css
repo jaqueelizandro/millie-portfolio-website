@@ -474,6 +474,47 @@
     cursor: auto;
 }
 
+.survey-box__folder {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    max-width: 50%;
+    padding: 1em;
+    margin-bottom: 5em;
+    background-color: rgba(255,255,255,1);
+    border-radius: 10px;
+}
+
+.survey-box__folder__illust {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.survey-box__folder__illust div {
+    font-size: 1.80rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.survey-box__folder__icons-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.survey-box__folder__illust__icon {
+    padding: 10px;
+    display: flex;
+    max-height: 6em;
+}
+
+.survey-box__folder__explanation {
+    grid-area: 1 / 2 / span 3 / span 1;
+    align-self: center;
+}
+
+.survey-box__folder__explanation p {
+    padding-bottom: 1em;
+}
+
 .ideation__slide {
     padding: 5em;
 }
