@@ -429,6 +429,11 @@
     width: 104%;
 }
 
+.overlapping-grid p,
+.overlapping-grid ol {
+    padding-bottom: 1em;
+}
+
 #firemark {
     background-color: rgba(234,215,230,.7);
 }
@@ -1019,7 +1024,7 @@
     }
 
     .overlapping-grid .box {
-        min-height: 19em;
+        min-height: 23em;
     }
 
     .roadmap__board {
