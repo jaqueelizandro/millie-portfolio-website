@@ -8,6 +8,16 @@
     margin-left: -20px;
 }
 
+.general-info__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.general-info__prototype {
+    max-width: 50%;
+}
+
 #header1 {
     background-color: white;
 }
