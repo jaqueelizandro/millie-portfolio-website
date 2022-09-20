@@ -476,9 +476,8 @@
 
 .survey-box__folder {
     display: grid;
-    grid-template-columns: 32% 64%;
     column-gap: 4%;
-    max-width: 52%;
+    max-width: 95%;
     padding: 1em;
     margin-bottom: 5em;
     background-color: rgba(255,255,255,1);
@@ -500,11 +499,6 @@
 .survey-box__folder__illust__icon {
     max-height: 6em;
     max-width: 100%;
-}
-
-.survey-box__folder__explanation {
-    grid-area: 1 / 2 / span 3 / span 1;
-    align-self: center;
 }
 
 .survey-box__folder__explanation p {
@@ -557,7 +551,6 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     width: 95%;
     gap: 1px;
-    /* border: 1px dashed var(--main-color); */
 }
 
 .infograph__card {
@@ -972,6 +965,16 @@
     .roadmap__board__main {
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .survey-box__folder {
+        max-width: 75%;
+        grid-template-columns: 32% 64%;
+    }
+
+    .survey-box__folder__explanation {
+        grid-area: 1 / 2 / span 3 / span 1;
+        align-self: center;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -1011,5 +1014,9 @@
 
     .roadmap__board {
         max-width: 50%;
+    }
+
+    .survey-box__folder {
+        max-width: 52%;
     }
 }
