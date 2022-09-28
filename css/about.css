@@ -108,6 +108,11 @@ section {
     display: block;
 }
 
+.collar-us-rescue-link {
+    color: var(--main-color);
+    font-style: italic;
+}
+
 @media (min-width: 800px) {
     .text {
         width: 60%;
