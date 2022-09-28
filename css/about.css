@@ -32,27 +32,15 @@ section {
     border-radius: 30px;
     background-color: var(--second-color);
     padding: 1em;
-    text-align: center;
+    text-align: left;
 }
 
-.box > div {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.box > p {
+    margin: 1em;
+}
+
+.box .author {
     color: var(--main-color);
-    font-size: 1rem;
-}
-
-.box > div > p {
-    font-size: 1rem;
-}
-
-.box .images {
-    margin: 0;
-}
-
-.box .images img {
-    height: 4em;
 }
 
 .large-box {
@@ -138,11 +126,5 @@ section {
 
     .box .images img {
         height: unset;
-    }
-}
-
-@media (min-width: 1200px) {
-    .box {
-        width: 35%;
     }
 }
