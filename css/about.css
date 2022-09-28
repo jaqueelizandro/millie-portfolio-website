@@ -55,6 +55,59 @@ section {
     height: 4em;
 }
 
+.large-box {
+    width: 100%;
+    border-radius: 30px;
+    background-color: var(--second-color);
+    padding: 1em;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+    max-width: 100%;
+}
+
+.carousel > button {
+    position: absolute;
+    top: 50%;
+    background: transparent;
+    border: 0;
+}
+
+.carousel > button {
+    position: absolute;
+    top: 50%;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.carousel .button-left,
+.carousel .ideation__button-left {
+    transform: rotate(180deg) translateY(50%);
+    left: 1em;
+}
+
+.carousel .button-right,
+.carousel .ideation__button-right {
+    transform: translateY(-50%);
+    right: 1em;
+}
+
+.carousel .button-inactive {
+    opacity: .3;
+    cursor: auto;
+}
+
+.slide {
+    display: none;
+}
+
+.slides .current-slide {
+    display: block;
+}
+
 @media (min-width: 800px) {
     .text {
         width: 60%;
