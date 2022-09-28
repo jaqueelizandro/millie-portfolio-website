@@ -113,6 +113,12 @@ section {
     font-style: italic;
 }
 
+.thanks-for-stoppping-by {
+    color: var(--main-color);
+    text-align: center;
+    margin: 10em auto;
+}
+
 @media (min-width: 800px) {
     .text {
         width: 60%;
