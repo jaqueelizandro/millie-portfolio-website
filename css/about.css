@@ -33,6 +33,7 @@ section {
     background-color: var(--second-color);
     padding: 1em;
     text-align: left;
+    margin-bottom: 5em;
 }
 
 .box > p {
@@ -105,6 +106,14 @@ section {
     color: var(--main-color);
     text-align: center;
     margin: 10em auto;
+}
+
+.aboriginal-acknowledge {
+    color: var(--main-color);
+    font-size: .75rem;
+    text-align: center;
+    max-width: 80%;
+    padding-top: 10em;
 }
 
 @media (min-width: 800px) {
