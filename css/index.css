@@ -268,7 +268,7 @@ footer {
     clip-path: ellipse(50% 100% at bottom);
     height: 300px;
     display: grid;
-    grid-template-rows: auto min-content;
+    grid-template-rows: auto min-content min-content;
     justify-items: center;
     align-items: end;
     margin-top: 10em;

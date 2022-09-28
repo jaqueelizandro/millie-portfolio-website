@@ -116,6 +116,11 @@ section {
     padding-top: 10em;
 }
 
+.message {
+    align-self: center;
+    padding: 4em 0 2em 0;
+}
+
 @media (min-width: 800px) {
     .text {
         width: 60%;
